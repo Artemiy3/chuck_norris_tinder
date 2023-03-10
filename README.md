@@ -1,16 +1,13 @@
-# flutter_app
+# Artemiy Kochergin's flutter_app
 
-A new Flutter project.
+Here're the comments on the project implementation.
 
-## Getting Started
+The project tree may look quite bad, so let me clarify the structure:
+- You can find all the .dart files that were written by me in the lib folder
+- The application was initialized with "flutter create" command
+- pubspec.yaml file is located in the root directory
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Main things to metion:
+App works on android.
+It doesn't show pictures cause api returns 404 error.
+It shows new Chuck Norris joke every time any of two buttons is pressed.
